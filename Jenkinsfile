@@ -22,5 +22,15 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
+	} pose {
+		always {
+			echo "I am awesome. I run always"
+		}
+		success {
+			echo "I run when you are successful"
+		}
+		failure {
+			echo "I run only when you fail"
+		}
 	}
 }
