@@ -22,7 +22,9 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
-	} pose {
+	} 
+	
+	pose {
 		always {
 			echo "I am awesome. I run always"
 		}
